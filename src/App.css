@@ -23,6 +23,47 @@
   color: #61dafb;
 }
 
+img.pageBackground {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+  opacity: 65%;
+}
+
+img.mainPhoto {
+  width: 50%;
+  box-shadow: 5px 5px 20px black;
+}
+
+.photoExplanation {
+  width: 40%;
+  background: rgb(196, 193, 190);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.788);
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.photoTitle {
+  color: white;
+  text-shadow: 0 0 10px rgba(10px, 10px, 10px, 0.938);  
+}
+
+.photoDate {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.hideMe {
+  display: none;
+}
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
